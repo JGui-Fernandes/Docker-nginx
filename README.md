@@ -35,6 +35,9 @@ docker build -t joao-fernandes/docker-nginx:1.0 .
 docker run -d --name docker-nginx -p 8080:80 joao-fernandes/docker-nginx:1.0
 ```
 
+### Acessar servidor em execução (opcional)
+[Acesse localhost](http://localhost:8080/)
+
 ---
 
 ## ☸️ Kubernetes
@@ -45,13 +48,13 @@ kubectl apply -f ./k8/deploy.yaml
 kubectl apply -f ./k8/service.yaml
 ```
 
-### Confirmar que os pods, deploy e service estão rodando
+### Confirmar que os pods, deploy e service estão rodando (opcional)
 ```bash
 kubectl get all
 ```
 
 ### Acessar o localhost
-[Projeto](http://localhost:30080/)
+[Acesse localhost](http://localhost:30080/)
 
 ### Limpando cluster
 ```bash
