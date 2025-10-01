@@ -51,7 +51,7 @@ kubectl get all
 ```
 
 ### Acessar o localhost
-[localhost:30080](http://localhost:30080/)
+[Projeto](http://localhost:30080/)
 
 ### Limpando cluster
 ```bash
